@@ -1,0 +1,56 @@
+{{#unless gamelist.games}}
+  <h3 class="ui center aligned message">It's very quiet in here... add some game reviews!</h3>
+{{/unless}}
+
+{{#if gamelist.games}}
+
+<table class="ui fixed striped table">
+  <thead>
+    <tr>
+      <th class="four wide">Title</th>
+      <th class="four wide">Developer</th>
+      <th class="four wide">Review</th>
+      <th class="Four wide">Options</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each gamelist.games}}
+    <form class = "ui stacked segment form" action="/gamelist/{{../gamelist.id}}/updategame/{{id}}" method="POST">
+    <tr class="fields">
+      <td class="field">
+        <span class="ui input">
+         <input type="text" name="title" autofocus required title = "Please include a valid Title" placeholder="Title" value = "{{title}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="developer" required title = "Please include a valid Developer" placeholder="Developer" value = "{{developer}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="review" autofocus required title = "Please include a Review" placeholder="Review" value = "{{review}}">         
+        </span>
+      </td>
+      <td class="center aligned">
+        <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
+      </td>
+      <td class="centre aligned">
+        <a href="/gamelist/{{../gamelist.id}}/deletegame/{{id}}" class="ui tiny black button delgame">
+        <i class="ui trash icon"></i></a>
+      </td>
+    </tr>
+    </form>
+    {{/each}}
+  </tbody>
+</table>
+
+<p>
+  <span id="rating"> </span>
+</p>
+
+<button class="ui blue button" id = "rateit">
+  Rate it! <i class="star icon"></i>
+</button>
+
+{{/if}}

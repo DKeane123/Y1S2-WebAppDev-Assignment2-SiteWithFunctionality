@@ -1,0 +1,13 @@
+{{> menu id="ceo"}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    Some Ceo's of large game companies: 
+  </h2>
+
+  <div class="ui centered cards">
+    {{#each ceos}}
+      {{> card}}
+    {{/ each}}
+  </div>
+</section>

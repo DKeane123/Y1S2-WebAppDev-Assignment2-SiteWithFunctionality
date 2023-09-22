@@ -1,0 +1,22 @@
+{"ceos":
+  [
+    {
+      "name":"Bobby Kotick",
+      "image":"https://cdn.glitch.global/02d3bd8e-978d-4827-a005-4596acfbe815/v6pE9oF-_400x400.jpg?v=1647447821915",
+      "joined":2008,
+      "city":"California"
+    },
+    {
+      "name":"Avni Yerli and Faruk Yerli",
+      "image":"https://cdn.glitch.global/02d3bd8e-978d-4827-a005-4596acfbe815/crytek-ceo1520419703509.png?v=1647447815055",
+      "joined":2018,
+      "city":"Frankfurt"
+    },
+    {
+      "name":"Vince Zampella",
+      "image":"https://cdn.glitch.global/02d3bd8e-978d-4827-a005-4596acfbe815/2020-vince-zampella.jpg?v=1647448920592",
+      "joined":2010,
+      "city":"California"
+    }
+  ]
+}

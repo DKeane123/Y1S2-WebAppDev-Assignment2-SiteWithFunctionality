@@ -1,0 +1,31 @@
+{
+  "genresCollection": [
+    {
+      "id": "2a887867-8820-4060-adda-1bd3fb682f44",
+      "userid": "12bc4980-7366-4253-8837-2478b05827ad",
+      "title": "First/Third Person Shooters",
+      "description": "First or third person games with the main objective being to shoot other players",
+      "picture": "http://res.cloudinary.com/patsy/image/upload/v1651437522/uc1iiobz8dlgzwxhlegc.jpg",
+      "date": "2022-05-01T20:38:41.346Z",
+      "games": []
+    },
+    {
+      "id": "3053e32b-4e38-4901-9bbe-4398968ef6f1",
+      "userid": "12bc4980-7366-4253-8837-2478b05827ad",
+      "title": "RPG",
+      "description": "Playing with m8s",
+      "picture": "http://res.cloudinary.com/patsy/image/upload/v1651444244/tvt078gijlhgtv6idsrf.png",
+      "date": "2022-05-01T22:30:44.014Z",
+      "games": []
+    },
+    {
+      "id": "930b9a4b-667f-46f7-831b-284639aaa1ec",
+      "userid": "a3929cb7-19d5-4d9b-ac7c-7367165bba35",
+      "title": "Test",
+      "description": "testing",
+      "picture": "http://res.cloudinary.com/patsy/image/upload/v1651566639/lziexcsifpkzapozm6ne.jpg",
+      "date": "2022-05-03T08:30:38.886Z",
+      "games": []
+    }
+  ]
+}

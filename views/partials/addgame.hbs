@@ -1,0 +1,20 @@
+<form class="ui stacked segment form" action="/gamelist/{{gamelist.id}}/addgame" method="POST">
+  <div class="two fields">
+    <div class="field">
+      <label>Title</label>
+      <input type="text" name="title" autofocus required title = "Please include a valid Title"
+      placeholder="Title">
+    </div>
+    <div class="field">
+      <label>Developer</label>
+      <input type="text" name="developer" required title = "Please include a valid Developer"
+      placeholder="Developer"  >
+    </div>
+    <div class="field">
+      <label>Your Review</label>
+      <input type="text" name="review" required title = "Please let us know what you think of the game"
+      placeholder="Sample Text"  >
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Game</button>
+</form>
